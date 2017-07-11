@@ -1,5 +1,5 @@
 # Synaptic-Exemples
 Exemples for Synaptic module (deep learning Javascript)
 
-https://synaptic.juancazala.com/#/
+https://synaptic.juancazala.com/#/<br />
 https://github.com/cazala/synaptic
