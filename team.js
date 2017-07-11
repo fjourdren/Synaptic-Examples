@@ -4,7 +4,7 @@ var myNetwork = new synaptic.Architect.Perceptron(2, 3, 1)
 var trainer = new synaptic.Trainer(myNetwork)
 
 var trainingSet = [];
-for(var i = 0; i < 500;i++){
+for(var i = 0; i < 5000;i++){
 	var a = Math.floor(Math.random() * (50 - 0 + 50)) + 0;
 	var b = Math.floor(Math.random() * (50 - 0 + 50)) + 0;
 	
@@ -24,7 +24,7 @@ trainer.train(trainingSet, {
 	iterations: 20000,
 	error: .005,
 	shuffle: true,
-	log: 40,
+	log: 100,
 	cost: synaptic.Trainer.cost.CROSS_ENTROPY
 });
 
